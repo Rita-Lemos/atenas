@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500&display=swap');
+
+
+.a_personalizationgrid_category{
+    background-color: #fff;
+    border: 1px solid rgb(215,20,36);
+    height: 97px;
+    width: 95px;
+    text-align: center;
+    vertical-align: middle;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    color: rgb(100,100,100);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.carrosselcategorias{
+    margin-left: -15px!important;
+    margin-right: -15px!important;
+}
+
+.carrosselautores{
+    margin-left: -15px!important;
+    margin-right: -15px!important;
+}
+
+.a_spanTextoCarrosselAuthor{
+    height: 94px;
+    width: 148px;
+    text-align: center;
+    vertical-align: middle;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.a_spanTextoCarrossel{
+    height: 94px;
+    width: 148px;
+    text-align: center;
+    vertical-align: middle;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    
+}

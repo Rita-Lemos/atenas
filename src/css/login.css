@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500&display=swap');
+
+#BodyLogin{
+    background-color: rgb(215,20,36);
+    height: 100%;
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    height:100%;
+}
+
+
+#app{
+    height:100%;
+}
+
+
+#LogoLogin{
+    width: 250px;
+    margin: auto;
+    display: block;
+    padding-top: 80px;
+}
+
+
+.Email{
+    width: 225px;
+    height: 40px;
+    background-color: white;
+    border-radius: 20px;
+    margin: auto;
+    display: block;
+    margin-top: 10px;
+    border-color: transparent;
+}
+
+.EmailLogo{
+    width: 25px;
+    height: 30px;
+    float: left;
+    margin-left: 29px;
+    margin-top: 6px;
+}
+
+
+.EmailInput{
+    float: left;
+    margin-left: 20px;
+    width: 140px;
+    border: none;
+    color: rgb(100,100,100);
+    outline: none;
+    margin-top: 7px;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.EmailInput::placeholder{
+    color: rgb(150,150,150);
+    border: none;
+    outline: none;
+}
+
+
+.Pass{
+    width: 225px;
+    height: 40px;
+    background-color: white;
+    border-radius: 20px;
+    margin: auto;
+    display: block;
+    margin-top: 10px;
+    border-color: transparent;
+}
+
+.PassLogo{
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin-left: 25px;
+    margin-top: 6px;
+}
+
+.PassInput{
+    float: left;
+    margin-left: 20px;
+    width: 140px;
+    border: none;
+    color: rgb(100,100,100);
+    outline: none;
+    margin-top: 7px;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.PassInput::placeholder{
+    color: rgb(150,150,150);
+    border: none;
+    outline: none;
+}
+
+
+.LoginBtn{
+    width: 110px;
+    height: 35px;
+    background-color: white;
+    border-radius: 20px;
+    margin: auto;
+    display: block;
+    margin-top: 20px;
+    border-color: transparent;
+    color: rgb(215,20,36);
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.LoginBtn:focus{
+    border:none!important;
+    outline: none!important;
+}
+
+.LoginBtn:active{
+    border:none!important;
+    outline: none!important;
+}
+
+.LoginBtn::-moz-focus-inner{
+    border:none!important;
+    outline: none!important;
+}
+
+
+
+.RegistarAqui{
+    width: 100%;
+    /* background-color: antiquewhite; */
+    text-align: center;
+    color: white;
+    margin: auto;
+    position: fixed;
+    bottom: 15px;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.RegistarAqui a{
+    font-size: 14px;
+    font-weight: 500;
+    color: white!important;
+}

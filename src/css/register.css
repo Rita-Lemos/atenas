@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500&display=swap');
+
+#RegisterPage{
+    background-color: rgb(215,20,36);
+    height: 100%;
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    /*background-color: rgb(215,20,36);*/
+    height: 100%;
+}
+
+.FormRegisto{
+    width: 100%;
+    display: block;
+}
+
+.ImgUserRegisto{
+    height: 130px;
+    margin: auto;
+    display: block;
+    border-radius: 50%;
+    max-width: 130px;
+}
+
+
+.inputfile {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+.inputfile + label {
+    font-size: 10px;
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+    width: 80px;
+    height: 20px;
+    text-align: center;
+    margin: auto;
+    display: block;
+    padding-top: 2px;
+    border-radius: 20px;
+}
+
+
+.DivInput{
+    width: 225px;
+    height: 40px;
+    background-color: white;
+    border-radius: 20px;
+    margin: auto;
+    display: block;
+    margin-top: 10px;
+    border-color: transparent;
+}
+
+.IconesInput{
+    width: 25px;
+    height: 30px;
+    float: left;
+    margin-left: 29px;
+    margin-top: 6px;
+}
+
+.InputsRegisto{
+    float: left;
+    margin-left: 20px;
+    width: 140px;
+    border: none;
+    color: rgb(100,100,100);
+    outline: none;
+    margin-top: 7px;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.InputsRegisto::placeholder{
+    color: rgb(150,150,150);
+    border: none;
+    outline: none;
+}
+
+.TodosInput{
+    margin-top: 30px;
+    display: block;
+}
+
+
+.RegistoBtn{
+    width: 110px;
+    height: 35px;
+    background-color: white;
+    border-radius: 20px;
+    margin: auto;
+    display: block;
+    margin-top: 20px;
+    border-color: transparent;
+    color: rgb(215,20,36);
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.RegistoBtn:focus{
+    border: none!important;
+    outline: none!important;
+}
+
+.RegistoBtn:active{
+    border: none!important;
+    outline: none!important;   
+}
+
+
+.RegistoBtn::-moz-focus-inner{
+    border: none!important;
+    outline: none!important;   
+}
+
+
+.UserRegisto{
+    padding-top: 60px;
+}
+

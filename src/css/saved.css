@@ -1,0 +1,87 @@
+h6 {
+    padding: 10px;
+}
+
+.a_saved_collections{
+    border-top: 1px solid rgb(180,180,180);
+    margin: 10px;
+    padding-top: 10px;
+    margin-top: 50px;
+    border-radius: 1px;
+}
+
+.a_saved_title{
+    display: flex;
+    justify-content: space-between;
+}
+
+.a_saved_button{
+    background-color: #D71424 !important;
+    border-color: #D71424 !important;
+    border-radius: 50% !important;
+    height: 30px;
+    width: 30px;
+    padding: 0 !important;
+}
+
+.a_saved_collection{
+    padding: 0px !important;
+    margin-top: 15px;
+}
+
+.a_saved_collection_title{
+    background-color: #D71424;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: normal;
+    display: block;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+
+}
+
+.a_saved_image{
+    height: 210px;
+    background-image: url('../images/default_collection.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.a_SavedBody{
+    margin-top: 75px;
+    margin-bottom: 105px;
+}
+
+.a_TextoRecente{
+    color: rgb(50,50,50);
+    font-size: 16px;
+    padding-left: 15px;
+    margin-bottom: 0px!important;
+}
+
+.a_ColetionContentor{
+    padding-left: 0px!important;
+    padding-right: 0px!important;
+}
+
+.a_SetaBack{
+    width: 20px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 7px;
+}
+
+
+.a_TextoLerMais{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    color: rgb(50,50,50);
+    padding-left: 10px;
+    padding-top: 3px;
+    display: flex;
+}

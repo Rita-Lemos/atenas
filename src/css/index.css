@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'georgiab';
+    src: url('../fonts/georgiab.ttf'),/* IE9 Compat Modes */
+         url('../fonts/georgiab.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
+
+body {
+  margin: 0;
+  font-family: 'georgiab', Fallback, sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+#root{
+  height: 100%!important;
+}
+
+a{
+  color: white!important;
+}
+
+.a_Validacao{
+    width: 225px;
+    background-color: #fff3cd;
+    margin: auto;
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    color: #856404;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.VerMaisBtn {
+  width: 110px;
+  height: 35px;
+  background-color: rgb(215,20,36);
+  border-radius: 20px;
+  margin: auto;
+  display: block;
+  margin-top: 20px;
+  border-color: transparent;
+  color: white;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.VerMaisBtn:focus{
+  outline: none;
+  border: none;
+}
+
+.VerMaisBtn:active{
+  outline: none;
+  border: none;
+}
+
+.VerMaisBtn::-moz-focus-inner{
+  outline: none;
+  border: none;
+}
+
+

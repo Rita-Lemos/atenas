@@ -1,0 +1,21 @@
+.a_commingsoon{
+   text-align: center;
+   padding-top: 150px;
+}
+
+.a_commingsoon_logo{
+    height: 150px;
+}
+
+.a_commingsoon_title{
+    padding-top: 20px;
+}
+
+.a_commingsoon_description{
+    padding: 0 40px 60px 40px;
+}
+
+.a_commingsoon_link{
+    color: #D71424 !important;
+    text-decoration: underline !important;
+}

@@ -1,0 +1,102 @@
+.a_mainview_header{
+    padding-top: 10px;
+    border-bottom: 1px solid #DCDCDC;
+    display: flex;
+    justify-content: space-around;
+    height: 51px;
+    z-index: 1;
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+ 
+.a_mainview_header .a_mainview_logo img{
+    height: 27px;
+    width: auto;
+}
+ 
+.a_mainview_logo{
+    position: relative;
+    right: 10px;
+}
+ 
+.a_mainview_header .a_mainview_title {
+    text-transform: uppercase;
+    font-size: 19px;
+    position: relative!important;
+    left: 29px!important;
+}
+ 
+ 
+ 
+.a_mainview_header .a_mainview_actions img {
+    height: 27px;
+    width: auto;
+    margin-left: 15px;
+    position: relative;
+    left: 5px;
+}
+ 
+.a-mainview{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-evenly;
+    background: #D71424;
+    padding: 10px !important;
+    padding-top: 5px !important;
+    height: 60px;
+}
+ 
+.a-mainview a.nav-link.active{
+    background-color: transparent;
+    color: #FFF!important;
+    border-color: transparent;
+}
+ 
+.a-mainview a{
+    color: #FFF;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: auto 30px;
+    padding-top: 35px;
+    font-size: 10px;
+    line-height: 12px;
+    padding-bottom: 0;
+}
+ 
+.a-mainview #noanim-tab-example-tab-meu_jornal{
+    background-image: url('../images/jornal_personalizado.svg');
+}
+ 
+.a-mainview #noanim-tab-example-tab-meu_jornal.active{
+    background-image: url('../images/jornal_personalizado_ativo.svg');
+}
+ 
+.a-mainview #noanim-tab-example-tab-home{
+    background-image: url('../images/home.svg');
+}
+ 
+.a-mainview #noanim-tab-example-tab-home.active{
+    background-image: url('../images/home_ativo.svg');
+}
+ 
+.a-mainview #noanim-tab-example-tab-guardados{
+    background-image: url('../images/guardados.svg');
+}
+ 
+.a-mainview #noanim-tab-example-tab-guardados.active{
+    background-image: url('../images/guardados_ativo.svg');
+}
+ 
+ 
+.nav{
+    position: fixed!important;
+    z-index: 1!important;
+    width: 100%!important;
+}
+
+

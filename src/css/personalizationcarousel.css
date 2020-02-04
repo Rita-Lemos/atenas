@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500&display=swap');
+
+
+.a_BodyPersonalizacao{
+    background-color: rgb(215,20,36);
+    height: 100%;
+}
+
+.a_personalizationgrid_carousel{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+}
+
+.a_personalizationgrid_carousel .carousel-inner{
+    overflow: inherit;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    width: 5% !important;
+}
+

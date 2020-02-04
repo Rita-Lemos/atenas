@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500&display=swap');
+
+.a_homepage_titulos_destaque {
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(100,100,100);
+}
+
+.a_homepage_topicos_destaque {
+    font-family: 'Montserrat';
+    font-size: 18px;
+}
+
+.a_homepage_titulos {
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(100,100,100);
+}
+
+.a_homepage_topicos {
+    font-family: 'Montserrat';
+    font-size: 15px;
+}
+
+.a_homepage_padding {
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+
+.a_homepage_destaque {
+    margin-bottom: 15px;
+    background-color: rgb(240, 240, 240) !important;
+}
+
+.a_homepage_margem {
+    margin-top: 25px;
+}
+
+a .LinkGrid {
+    color: rgb(100, 100, 100)!important;
+    text-decoration: none!important;
+}
+
+.a_homepage_change_card {
+    background: none !important;
+    border-style: none !important;
+}
+
+.a_homepage_change_header_destaque {
+    background: none !important;
+    border-bottom: none !important;
+    padding: 0.25rem !important;
+    color: rgb(215, 20, 36);
+    font-family:'Montserrat', sans-serif;
+}
+
+.a_homepage_change_body {
+    padding: 0 !important;
+    position: relative;
+}
+
+.a_homepage_guardados {
+    position: relative;
+    float: right;
+    bottom: 45px;
+    right: 17px;
+}
+
+.a_homepage_img_guardados {
+    width: 25px;
+}
+
+.a_homepage_margin_title {
+    margin-top: 0.75rem;
+}
+
+.a_homepage_news {
+    background: rgb(215, 20, 36) !important;
+    color: white;
+    padding: 0.75rem !important;
+    border-bottom: none !important;
+    font-family:'Montserrat', sans-serif;
+}
+
+.a_homepage_radius {
+    border-radius: 0 !important;
+}
+
+.a_homepage_position_news {
+    position: absolute;
+    bottom: 18px !important;
+    right: 18px;
+    background: none !important;
+    border-style: none !important;
+}
+
+.a_homepage_position_news:focus{
+    border:none;
+    outline: none;
+}
+
+
+.a_homepage_position_news:active{
+    border:none;
+    outline: none;
+}
+
+.a_homepage_position_news::-moz-focus-inner{
+    border:none;
+    outline: none;
+}
+
+.row{
+    margin-left: 0!important;
+    margin-right: 0!important;
+}
